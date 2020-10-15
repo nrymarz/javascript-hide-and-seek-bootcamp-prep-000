@@ -13,7 +13,7 @@ function increaseRankBy(n) {
   }
 }
 function deepestChild() {
-  var current = document.getElementById('app').querySelector('div.#grand-node');
+  var current = document.getElementById('app').querySelector('#grand-node');
   while(current.querySelector('div')) {
     current = current.querySelector('div');
   }
