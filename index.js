@@ -12,3 +12,9 @@ function increaseRankBy(n) {
     rankedlist[i].innerHTML = (parseInt(rankedlist[i].innerHTML) + n).toString();
   }
 }
+function deepestChild() {
+  var current = document.getElementById('app').querySelector('div.#grand-node');
+  while(current) {
+    if (current.querySelectorAll)
+  }
+}
